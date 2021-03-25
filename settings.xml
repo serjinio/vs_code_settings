@@ -1,0 +1,76 @@
+
+{
+    "editor.minimap.enabled": false,
+    "git.ignoreMissingGitWarning": true,
+    "files.watcherExclude": {
+        "**/.bloop": true,
+        "**/.metals": true,
+        "**/.ammonite": true
+    },
+    "files.exclude": {
+        "**/.classpath": true,
+        "**/.project": true,
+        "**/.settings": true,
+        "**/.factorypath": true
+    },
+    "gitlens.currentLine.enabled": false,
+    "gitlens.hovers.currentLine.over": "line",
+    "workbench.colorTheme": "Visual Studio Light",
+    "git.autofetch": true,
+    "editor.renderControlCharacters": true,
+    "vim.commandLineModeKeyBindings": [],
+    "vim.camelCaseMotion.enable": true,
+      "vim.easymotion": true,
+    "vim.useSystemClipboard": true,
+    "vim.commandLineModeKeyBindingsNonRecursive": [
+    
+    ],
+    "vim.insertModeKeyBindings": [
+        {
+            "before": [
+                "f",
+                "d"
+            ],
+            "after": [
+                "<Esc>"
+            ]
+        }
+    ],
+    "vim.normalModeKeyBindings": [
+        {
+            "before": [
+                "leader",
+                "w"
+            ],
+            "commands": [
+                "workbench.action.files.save",
+            ]
+        },
+        {
+            "before": [
+                "<leader>",
+                "d"
+            ],
+            "after": [
+                "d",
+                "d"
+            ]
+        }
+        // {
+        //     "before": [
+        //         ":"
+        //     ],
+        //     "commands": [
+        //         "workbench.action.showCommands",
+        //     ]
+        // }
+    ],
+    "vim.handleKeys": {
+        "<C-a>": false,
+        "<C-f>": false,
+        "<C-k>": false
+    },
+    "diffEditor.ignoreTrimWhitespace": false,
+    "java.project.importHint": false,
+    "editor.wordWrap": "on"
+}
